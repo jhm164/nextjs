@@ -28,3 +28,7 @@ http://localhost:3000/nested-routes/subpost/details
 - It helps to reuse components between pages
 - dir: src\app\layouts-pattern
 - For example, you might have the same navigation bar and footer on every page.
+
+- dir: src\pages\catch-pages
+- catch single page http://localhost:3000/catch-pages/single/first-parm 
+- catch all pages http://localhost:3000/catch-pages/all/first-parm/secnd/third
