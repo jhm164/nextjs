@@ -43,3 +43,6 @@ http://localhost:3000/nested-routes/subpost/details
 
 ### Error handling
 - dir: app\error-handling
+- error.js boundaries do not catch errors thrown in layout.js or template.js To handle errors within a specific layout or template, place an error.js file in the layout's parent segment.
+- global error handling dir: global-error.tsx
+- global-error.js is only enabled in production. In development, our error overlay will show instead.
