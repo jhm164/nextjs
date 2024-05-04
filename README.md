@@ -39,3 +39,7 @@ http://localhost:3000/nested-routes/subpost/details
 - dir: src/app/link-nav
 - http://localhost:3000/link-nav/link
 - http://localhost:3000/link-nav/navigation
+
+
+### Error handling
+- dir: app\error-handling
