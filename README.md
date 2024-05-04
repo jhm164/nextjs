@@ -15,7 +15,7 @@ Route is address of page using route we can access our page UI
 ### Nested Routes
 - nested folder structure
 Example:
-- dir: pages/blog/first-post.js → /blog/first-post
+- dir: src\pages\nested-routes → /blog/first-post
 http://localhost:3000/nested-routes/first-post
 http://localhost:3000/nested-routes/subpost/details
 
@@ -42,7 +42,11 @@ http://localhost:3000/nested-routes/subpost/details
 
 
 ### Error handling
-- dir: app\error-handling
+- dir: src\app\error-handling
 - error.js boundaries do not catch errors thrown in layout.js or template.js To handle errors within a specific layout or template, place an error.js file in the layout's parent segment.
 - global error handling dir: global-error.tsx
 - global-error.js is only enabled in production. In development, our error overlay will show instead.
+
+### Route Group
+- to avoid folder from being used in route "Route Group" used
+- dir  src\app\(adminpanel)
