@@ -36,5 +36,6 @@ http://localhost:3000/nested-routes/subpost/details
 
 ### Link and Navigation
 
-- dir:link-nav/link
+- dir: src/app/link-nav
 - http://localhost:3000/link-nav/link
+- http://localhost:3000/link-nav/navigation
