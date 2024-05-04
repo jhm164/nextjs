@@ -1,12 +1,13 @@
-"use client"
+'use client'
+ 
 import { useRouter } from 'next/navigation'
  
-export default function ReadMore() {
+export default function Page() {
   const router = useRouter()
  
   return (
-    <button onClick={() => router.push('/about')}>
-      Click here to read more
+    <button type="button" onClick={() => router.push('/dashboard')}>
+      Dashboard
     </button>
   )
 }
