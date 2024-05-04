@@ -33,3 +33,8 @@ http://localhost:3000/nested-routes/subpost/details
 - catch single page http://localhost:3000/catch-pages/single/first-parm 
 - catch all pages http://localhost:3000/catch-pages/all/first-parm/secnd/third
 - single and all will not working if no parameter set we need to make it optional optional-catch
+
+### Link and Navigation
+
+- dir:link-nav/link
+- http://localhost:3000/link-nav/link
