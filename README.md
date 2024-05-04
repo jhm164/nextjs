@@ -15,10 +15,16 @@ Route is address of page using route we can access our page UI
 ### Nested Routes
 - nested folder structure
 Example:
-- pages/blog/first-post.js → /blog/first-post
+- dir: pages/blog/first-post.js → /blog/first-post
 http://localhost:3000/nested-routes/first-post
 http://localhost:3000/nested-routes/subpost/details
 
 ### Pages with Dynamic Routes
 - if we want to decide route on runtime then we can use dynamic routes
-- E.g public/pages/posts (http://localhost:3000/posts/4)
+- to avoid creating static page for each item we can use dynamic routes
+- dir: public/pages/posts (http://localhost:3000/posts/4)
+
+### Layout Pattern
+- It helps to reuse components between pages
+- dir: src\app\layouts-pattern
+- For example, you might have the same navigation bar and footer on every page.
